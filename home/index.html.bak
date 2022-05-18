@@ -86,21 +86,21 @@
                 <div class="opinion">
                     <div class="opinion-text">
                         <h1>Sheldon</h1>
-                        <img src="../photos/uczestnik1.jpg" alt="Zdjęcie Sheldona">
+                        <img src="../assets/photos/uczestnik1.jpg" alt="Zdjęcie Sheldona">
                         <p>tekst</p>
                     </div>
                 </div>
                 <div class="opinion">
                     <div class="opinion-text">
                         <h1>Phoeby</h1>
-                        <img src="../photos/uczestnik2.jpg" alt="Zdjęcie Phoeby">
+                        <img src="../assets/photos/uczestnik2.jpg" alt="Zdjęcie Phoeby">
                         <p>tekst</p>
                     </div>
                 </div>
                 <div class="opinion">
                     <div class="opinion-text">
                         <h1>Joey</h1>
-                        <img src="../photos/uczestnik3.jpg" alt="Zdjęcie Joey'a">
+                        <img src="../assets/photos/uczestnik3.jpg" alt="Zdjęcie Joey'a">
                         <p>tekst</p>
                     </div>
                 </div>
