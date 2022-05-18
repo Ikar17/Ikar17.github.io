@@ -1,0 +1,41 @@
+header{
+    padding-top: 20px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.persona{
+    width: 100vw;
+    height: 100vh;
+    background-color: #e9c46a;
+}
+
+.persona .container{
+    display:block;
+    height: 100%;
+}
+
+.persona-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height:calc( 100% - 60px);
+}
+
+.persona-other{
+    width: 100vw;
+    height: 100vh;
+    background-color: #06d6a0;
+}
+
+.persona-other .container{
+    display:block;
+    height: 100%;
+}
+
+.persona-other-box{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: calc(100% - 60px);
+}
