@@ -30,6 +30,36 @@ nav {
     display:none;
 }
 
+.nav-menu{
+    position: absolute;
+    top: 100px;
+    left: 0;
+    background-color: pink;
+    height: 140px;
+    width: 100%;
+    display:none;
+}
+
+.nav-menu ul{
+    height: 90%;
+}
+
+.nav-menu li{
+    padding-top: 6px;
+    font-weight: bold;
+}
+
+nav input{
+    opacity: 0;
+}
+
+nav input:checked + .nav-menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
 .introduction{
     width: 100vw;
     height: calc(70vh - 100px);
