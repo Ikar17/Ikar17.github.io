@@ -1,14 +1,5 @@
-body{
-    font-family: 'Nunito', sans-serif;
-}
-
 .container{
-    display: flex;
-    justify-content: space-between;
-    width: 1200px;
-    margin: 0 auto;
-    height: 100px;
-    align-items: center;
+    width: 800px;
 }
 
 a{
@@ -23,24 +14,11 @@ nav {
 
 .nav-logo{
     font-weight: 800;
-    font-size: 55px;
+    font-size: 30px;
 }
 
 .nav-links{
-    display: flex;
-    justify-content: space-between;
-    width: 45%;
-}
-
-.nav-links a{
-    padding: 8px 14px;
-    background-color: red;
-    font-weight: bold;
-    transition: .5s all;
-}
-.nav-links a:hover{
-    transform: scale(1.1);
-    color:white;
+    display:none;
 }
 
 .introduction{
@@ -65,17 +43,17 @@ nav {
     margin: 0 auto;
 }
 .introduction-text{
-    width: 100%;
+    width: 90%;
     color:white;
 }
 
 .introduction-text h1{
-    font-size: 60px;
+    font-size: 40px;
 }
 
 .introduction-text p{
     padding: 10px 0 0 0;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .course{
@@ -86,14 +64,6 @@ nav {
 
 .course .container{
     height: 100%;
-}
-
-.course-photo{
-    width: 40%;
-    height: 50%;
-    background-image: url("../photos/course_photo.jpg");
-    background-size: cover;
-    background-position: center;
 }
 
 .course-text{
@@ -130,13 +100,14 @@ nav {
 
 .offer-packages{
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
+    justify-content: space-around;
     height: calc(100% - 60px);
     align-items: center;
 }
 
 .package{
-    height: 70%;
+    height: 60%;
     width: 25%;
     background-color: #5e6472;
     border-radius: 40%;
@@ -152,12 +123,12 @@ nav {
 }
 
 .package-text h2{
-    font-size: 200%;
+    font-size: 150%;
     font-weight: bold;
 }
 
 .package-text h1{
-    font-size: 250%;
+    font-size: 200%;
     font-weight: bold;
 
 }
@@ -174,10 +145,6 @@ nav {
     font-weight: bold;
     transition: 1s all;
     cursor: pointer;
-}
-
-.package-text button:hover{
-    background-color: white;
 }
 
 .opinions{
@@ -199,6 +166,7 @@ nav {
 
 .opinion-packages{
     display: flex;
+    flex-direction: row;
     justify-content: space-around;
     align-items: center;
     height: calc(100% - 60px);
@@ -211,25 +179,6 @@ nav {
     width: 25%;
 }
 
-.opinion-text{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    height: 100%;
-}
-
-.opinion-text h1{
-    font-size: 25px;
-    font-weight: bold;
-}
-
-.opinion-text img{
-    width: 100px;
-    height: 120px;
-    border-radius: 40%;
-    background-color: yellow;
-}
 .contact{
     width: 100vw;
     height: 100vh;
@@ -258,14 +207,6 @@ form input, form textarea{
     margin: 10px 0;
 }
 
-.contact-form-photo{
-    width: 350px;
-    height: 350px;
-    background-image: url("../photos/form-photo.jpg");
-    background-position: center;
-    background-size: cover;
-    border-radius: 10%;
-}
 footer{
     width: 100vw;
     height: 30vh;
@@ -275,6 +216,7 @@ footer{
 
 footer .container{
     display: flex;
+    flex-direction: row;
     align-items: center;
     height: 100%;
 }
@@ -290,7 +232,8 @@ footer h1{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    height: 40%;
+    align-items: flex-start;
+    height: 60%;
 }
 
 .footer-media{
@@ -311,4 +254,3 @@ footer h1{
 .media i{
     font-size: 30px;
 }
-

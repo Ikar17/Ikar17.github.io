@@ -17,6 +17,7 @@ header{
 
 .mentor-box{
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
     height:calc( 100% - 60px);
@@ -43,6 +44,7 @@ header{
 
 .trainers-box{
     display: flex;
+    flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
     height: calc(100% - 60px);

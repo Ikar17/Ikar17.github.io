@@ -1,0 +1,91 @@
+header{
+    padding-top: 20px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.mentor{
+    width: 100vw;
+    height: 100vh;
+    background-color: #e9c46a;
+}
+
+.mentor .container{
+    display:block;
+    height: 100%;
+}
+
+.mentor-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height:calc( 100% - 60px);
+}
+
+.mentor-photo{
+    height: 50%;
+    width: 40%;
+    background-image: url("../photos/robert_maklowicz.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius:5%;
+}
+.trainers{
+    width: 100vw;
+    height: 100vh;
+    background-color: #06d6a0;
+}
+
+.trainers .container{
+    display:block;
+    height: 100%;
+}
+
+.trainers-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: calc(100% - 60px);
+}
+
+.trainers-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+    width: 25%;
+}
+
+.trainers-details h1{
+    font-size: 30px;
+    font-weight: bold;
+}
+.trainers-photo1{
+    height: 50%;
+    width: 100%;
+    background-image: url("../photos/magda_gessler.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius:5%;
+}
+
+.trainers-photo2{
+    height: 50%;
+    width: 100%;
+    background-image: url("../photos/gordon_ramsay.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius:5%;
+}
+
+.trainers-photo3{
+    height: 50%;
+    width: 100%;
+    background-image: url("../photos/jamie_oliver.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius:5%;
+}
