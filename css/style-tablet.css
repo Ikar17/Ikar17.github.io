@@ -21,6 +21,42 @@ nav {
     display:none;
 }
 
+.nav-menu{
+    position: absolute;
+    top: 100px;
+    left: 0;
+    background-color: pink;
+    height: 150px;
+    width: 100%;
+    display:none;
+}
+
+.nav-menu ul{
+    height: 90%;
+}
+
+.nav-menu li{
+    padding-top: 6px;
+    font-weight: bold;
+}
+
+nav input{
+    opacity: 0;
+}
+
+nav input:checked + .nav-menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav input:checked + .nav-menu ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .introduction{
     width: 100vw;
     height: calc(100vh - 100px);

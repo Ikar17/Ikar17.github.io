@@ -35,7 +35,7 @@ nav {
     top: 100px;
     left: 0;
     background-color: pink;
-    height: 140px;
+    height: 200px;
     width: 100%;
     display:none;
 }
@@ -45,8 +45,9 @@ nav {
 }
 
 .nav-menu li{
-    padding-top: 6px;
+    padding-top: 15px;
     font-weight: bold;
+    font-size: 20px;
 }
 
 nav input{
@@ -58,6 +59,12 @@ nav input:checked + .nav-menu{
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+}
+
+nav input:checked + .nav-menu ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .introduction{
