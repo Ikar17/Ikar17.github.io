@@ -1,8 +1,9 @@
 
 header{
-    padding-top: 20px;
-    font-size: 40px;
+    font-family: 'League Spartan', sans-serif; 
+    font-size: 70px;
     font-weight: bold;
+    padding-top: 50px;
 }
 
 .statistic {
