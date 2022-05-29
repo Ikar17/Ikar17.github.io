@@ -1,3 +1,7 @@
+.introduction{
+    font-weight: bold;
+}
+
 header{
     padding-top: 20px;
     font-size: 40px;
@@ -7,7 +11,7 @@ header{
 .mentor{
     width: 100vw;
     height: 100vh;
-    background-color: #e9c46a;
+    background-color: #f3eed9;
 }
 
 .mentor .container{
@@ -15,12 +19,19 @@ header{
     height: 100%;
 }
 
+.mentor header{
+    font-family: 'League Spartan', sans-serif; 
+}
 .mentor-box{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     height:calc( 100% - 60px);
+}
+
+.mentor-text{
+    font-family: 'Roboto Mono', monospace;
 }
 
 .mentor-photo{
@@ -34,12 +45,16 @@ header{
 .trainers{
     width: 100vw;
     height: 100vh;
-    background-color: #06d6a0;
+    background-color: #df3046;
 }
 
 .trainers .container{
     display:block;
     height: 100%;
+}
+
+.trainers header{
+    font-family: 'League Spartan', sans-serif; 
 }
 
 .trainers-box{
@@ -60,6 +75,7 @@ header{
 }
 
 .trainers-details h1{
+    font-family: 'League Spartan', sans-serif; 
     font-size: 30px;
     font-weight: bold;
 }
