@@ -68,7 +68,7 @@ nav input:checked + .nav-menu ul{
 
 .introduction{
     width: 100vw;
-    height: calc(70vh - 100px);
+    height: calc(90vh - 100px);
     background-image:url("../photos/introduction.jpg");
     background-position: center;
     background-size: cover; 
@@ -105,12 +105,14 @@ nav input:checked + .nav-menu ul{
 
 .course{
     width: 100vw;
-    height: 80vh;
+    height: 95vh;
     background-color: #D68032;
 }
 
 .course .container{
-    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     height: 100%;
 }
 
@@ -128,13 +130,13 @@ nav input:checked + .nav-menu ul{
 .course-text p{
     padding: 25px 0 0 0;
     font-family: 'Roboto Mono', monospace;
-    font-size: 20px;
+    font-size: 19px;
     text-align: center;
 }
 
 .offers{
     width: 100vw;
-    height: 200vh;
+    height: 210vh;
     background-color: #fdfaf0;
 }
 
@@ -164,7 +166,7 @@ nav input:checked + .nav-menu ul{
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    height: 30%;
+    height: 28%;
     width: 70%;
     border: 1px solid black;
     border-radius: 8%;
@@ -206,7 +208,7 @@ nav input:checked + .nav-menu ul{
 
 .opinions{
     width: 100vw;
-    height: 200vh;
+    height: 210vh;
     background-color: #ddb03e;
 }
 
@@ -235,7 +237,7 @@ nav input:checked + .nav-menu ul{
 .opinion{
     border: 1px solid black;
     border-radius: 8%;
-    height: 29%;
+    height: 27%;
     width: 80%;
 }
 
