@@ -261,7 +261,7 @@ nav input:checked + .nav-menu ul{
     text-align: center;
 }
 .opinion-photo1{
-    width: 170px;
+    width: 70%;
     height: 50%;
     background-image: url("../photos/uczestnik1.jpg");
     background-size: cover;
@@ -270,7 +270,7 @@ nav input:checked + .nav-menu ul{
 }
 
 .opinion-photo2{
-    width: 170px;
+    width: 70%;
     height: 50%;
     background-image: url("../photos/uczestnik2.jpg");
     background-size: cover;
@@ -279,7 +279,7 @@ nav input:checked + .nav-menu ul{
 }
 
 .opinion-photo3{
-    width: 170px;
+    width: 70%;
     height: 50%;
     background-image: url("../photos/uczestnik3.jpg");
     background-size: cover;
