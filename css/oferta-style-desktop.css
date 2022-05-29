@@ -6,9 +6,13 @@ header{
     padding-top: 50px;
 }
 
+.introduction-text h1{
+    font-weight: bold;
+}
+
 .statistic {
     width: 100vw;
-    height: 100vh;
+    height: 60vh;
     background-color: white;
 }
 
@@ -18,47 +22,103 @@ header{
 }
 
 .statistic-box{
+    width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     height: calc(100% - 60px);
 }
 
 .statistic-example{
+    display: flex;
+    flex-direction: column;
     width: 20%;
+    height: 70%;
 }
 
 .statistic h1{
-    font-size: 25px;
+    font-family: 'League Spartan', sans-serif; 
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+    color: #ffcc00;
 }
 
 .statistic p{
-    color: red;
+    color: black;
+    font-family: 'League Spartan', sans-serif; 
     font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+
 }
 
 .syllabus{
     width: 100vw;
     height: 100vh;
-    background-color: #e9c46a;
+    background-color: #eae6de;
 }
 
 .syllabus .container{
-    display: block;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     height: 100%;
 }
 
-.options{
+.left-syllabus{
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    height: calc(100% - 60px);
-
+    flex-direction: column;
+    justify-content: center;
+    width: 35%;
+    height: 60%;
+    /* background-color: red; */
 }
+
+.left-syllabus h1{
+    font-family: 'League Spartan', sans-serif; 
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.left-syllabus p{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.right-syllabus{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    width: 65%;
+    height: 80%;
+    font-family: 'Roboto Mono', monospace;
+    background-color: white;
+    border-radius: 8%;
+}
+
+.right-syllabus-text{
+    display: flex;
+    align-items: center;
+}
+
+.right-syllabus-text .star{
+    padding-left: 20px;
+    font-weight: bold;
+    font-size: 400%;
+}
+
+.right-syllabus-text .text{
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 25px;
+}
+
 .questions{
     width: 100vw;
-    height: 100vh;
-    background-color: #80ed99; 
+    height: 200vh;
+    background-color: #D68032; 
 }
 
 .questions .container{
@@ -70,5 +130,22 @@ header{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    height: calc(100% - 60px);
+    height: calc(90% - 60px);
+}
+
+.answer-one{
+    display:block;
+}
+
+.answer-one h1{
+    font-family: 'League Spartan', sans-serif; 
+    font-weight: bold;
+    font-size: 150%;
+}
+
+.answer-one p{
+    font-family: 'Roboto Mono', monospace;
+    text-align:justify;
+    padding-top: 1%;
+    padding-left: 2%;
 }

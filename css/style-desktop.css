@@ -277,42 +277,6 @@ nav {
     border-radius: 20%;
 }
 
-.contact{
-    width: 100vw;
-    height: 100vh;
-    background-color: #38a3a5;
-}
-
-.contact .container{
-    display: block;
-    height: 100%;
-}
-
-.contact header{
-    padding-top: 20px;
-    font-size: 40px;
-    font-weight: bold;
-}
-
-.contact-form{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: calc(100% - 60px);
-}
-
-form input, form textarea{
-    margin: 10px 0;
-}
-
-.contact-form-photo{
-    width: 500px;
-    height: 350px;
-    background-image: url("../photos/form-photo.jpg");
-    background-position: center;
-    background-size: cover;
-    border-radius: 10%;
-}
 footer{
     width: 100vw;
     height: 30vh;

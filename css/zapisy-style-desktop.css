@@ -1,4 +1,7 @@
-
+.introduction-text{
+    font-family: 'League Spartan', sans-serif;
+    font-weight: bold;
+}
 
 .form-sign{
     width: 100vw;
@@ -8,8 +11,16 @@
 
 .form-sign .container{
     display:flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-evenly;
     height: 100%;
+}
+
+.form-sign header{
+    font-family: 'League Spartan', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: yellow;
 }
 
 .form-box{
@@ -24,10 +35,15 @@
 }
 
 
-.input{
+input{
     margin: 5px 0 0 0;
     font-size: 100%;
-    background-color: #fefae0;
+    color: white;
+    background-color: black;
     border: 1px solid black;
 }
 
+button{
+    font-size: 50px;
+    font-weight:bold;
+}
