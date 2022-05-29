@@ -33,7 +33,7 @@ nav {
     top: 100px;
     left: 0;
     background-color: #e9c46a;
-    height: 40vh;
+    height: 60vh;
     width: 100%;
     display:none;
 }
@@ -247,6 +247,7 @@ nav input:checked + .nav-menu ul{
     flex-direction: column;
     align-items: center;
     height: 95%;
+    font-family: 'League Spartan', sans-serif; 
 }
 
 .opinion-text h1{
@@ -260,8 +261,8 @@ nav input:checked + .nav-menu ul{
     text-align: center;
 }
 .opinion-photo1{
-    width: 230px;
-    height: 300px;
+    width: 170px;
+    height: 50%;
     background-image: url("../photos/uczestnik1.jpg");
     background-size: cover;
     background-position: center;
@@ -269,8 +270,8 @@ nav input:checked + .nav-menu ul{
 }
 
 .opinion-photo2{
-    width: 230px;
-    height: 300px;
+    width: 170px;
+    height: 50%;
     background-image: url("../photos/uczestnik2.jpg");
     background-size: cover;
     background-position: center;
@@ -278,8 +279,8 @@ nav input:checked + .nav-menu ul{
 }
 
 .opinion-photo3{
-    width: 230px;
-    height: 300px;
+    width: 170px;
+    height: 50%;
     background-image: url("../photos/uczestnik3.jpg");
     background-size: cover;
     background-position: center;
@@ -324,6 +325,7 @@ footer{
     height: 20vh;
     background-color: black;
     color:white;
+    font-family: 'League Spartan', sans-serif; 
 }
 
 footer .container{
