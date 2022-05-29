@@ -251,13 +251,13 @@ nav input:checked + .nav-menu ul{
 }
 
 .opinion-text h1{
-    font-size: 30px;
+    font-size: 19px;
     font-weight: bold;
 }
 
 .opinion-text p{
     width: 80%;
-    font-size: 20px;
+    font-size: 12px;
     text-align: center;
 }
 .opinion-photo1{
