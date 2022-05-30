@@ -5,18 +5,18 @@
 
 .form-sign{
     width: 100vw;
-    height: 100vh;
+    height: 130vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: black;
+    background-color: #073538;
 }
 
 .form-sign .container{
     display:flex;
     align-items: center;
     justify-content: center;
-    height: 80%;
+    height: 75%;
     width: 80%;
     background-color:#ffcc00;
 }
@@ -32,14 +32,14 @@
 }
 
 .form-sign header{
-    font-size: 50px;
+    font-size: 60px;
     font-weight: bold;
     color: black;
 }
 
 .right-form{
-    width: 350px;
-    height: 480px;
+    width: 28%;
+    height: 70%;
     background-image: url("../photos/zapisy-photo.jpg");
     background-position: center;
     background-size: cover;

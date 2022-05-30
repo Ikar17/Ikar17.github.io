@@ -32,6 +32,9 @@ header{
 
 .mentor-text{
     height: 40%;
+    font-family: 'Roboto Mono', monospace;
+    line-height: 110%;
+    padding-top: 2%;
 }
 
 .mentor-photo{
