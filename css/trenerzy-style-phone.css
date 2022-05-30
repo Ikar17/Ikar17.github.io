@@ -4,15 +4,23 @@ header{
     font-weight: bold;
 }
 
+.introduction{
+    font-weight: bold;
+}
+
 .mentor{
     width: 100vw;
     height: 100vh;
-    background-color: #e9c46a;
+    background-color: #f3eed9;
 }
 
 .mentor .container{
     display:block;
     height: 100%;
+}
+
+.mentor header{
+    font-family: 'League Spartan', sans-serif; 
 }
 
 .mentor-box{
@@ -38,12 +46,16 @@ header{
 .trainers{
     width: 100vw;
     height: 100vh;
-    background-color: #06d6a0;
+    background-color: #df3046;
 }
 
 .trainers .container{
     display:block;
     height: 100%;
+}
+
+.trainers header{
+    font-family: 'League Spartan', sans-serif; 
 }
 
 .trainers-box{
@@ -64,6 +76,7 @@ header{
 }
 
 .trainers-details h1{
+    font-family: 'League Spartan', sans-serif; 
     font-size: 20px;
     font-weight: bold;
 }

@@ -1,12 +1,17 @@
 header{
     padding-top: 20px;
-    font-size: 40px;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'League Spartan', sans-serif; 
+}
+
+.introduction-text h1{
     font-weight: bold;
 }
 
 .statistic {
     width: 100vw;
-    height: 100vh;
+    height: 120vh;
     background-color: white;
 }
 
@@ -18,33 +23,97 @@ header{
 .statistic-box{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
-    height: calc(100% - 60px);
+    height: calc(90% - 100px);
 }
 
 .statistic-example{
-    height: 25%;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 15%;
 }
 
 .statistic h1{
-    font-size: 25px;
+    font-family: 'League Spartan', sans-serif; 
+    font-size: 45px;
+    font-weight: bold;
+    text-align: center;
+    color: #ffcc00;
 }
 
 .statistic p{
-    color: red;
-    font-size: 35px;
+    color: black;
+    font-family: 'League Spartan', sans-serif; 
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
 }
 
 .syllabus{
     width: 100vw;
-    height: 100vh;
-    background-color: #e9c46a;
+    height: 120vh;
+    background-color: #eae6de;
 }
 
 .syllabus .container{
-    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
     height: 100%;
+}
+
+.left-syllabus{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 85%;
+    height: 25%;
+    /* background-color: red; */
+}
+
+.left-syllabus h1{
+    font-family: 'League Spartan', sans-serif; 
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.left-syllabus p{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+.right-syllabus{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    width: 92%;
+    height: 68%;
+    font-family: 'Roboto Mono', monospace;
+    background-color: white;
+    border-radius: 8%;
+}
+
+
+.right-syllabus-text{
+    display: flex;
+    align-items: center;
+}
+
+.right-syllabus-text .star{
+    padding-left: 2px;
+    font-weight: bold;
+    font-size: 120%;
+}
+
+.right-syllabus-text .text{
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 15px;
 }
 
 .options{
@@ -58,8 +127,8 @@ header{
 
 .questions{
     width: 100vw;
-    height: 100vh;
-    background-color: #80ed99; 
+    height: 280vh;
+    background-color: #D68032; 
 }
 
 .questions .container{
@@ -71,5 +140,23 @@ header{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    height: calc(100% - 60px);
+    height: calc(90% - 60px);
+}
+
+.answer-one{
+    display:block;
+}
+
+.answer-one h1{
+    font-family: 'League Spartan', sans-serif; 
+    font-weight: bold;
+    font-size: 150%;
+}
+
+.answer-one p{
+    font-family: 'Roboto Mono', monospace;
+    text-align:justify;
+    padding-top: 1%;
+    padding-left: 2%;
+    line-height: 120%;
 }

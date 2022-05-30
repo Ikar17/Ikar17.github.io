@@ -149,6 +149,7 @@ nav {
 
 .offer-packages{
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     height: calc(100% - 120px);
     align-items: center;
@@ -220,6 +221,7 @@ nav {
 
 .opinion-packages{
     display: flex;
+    flex-direction: row;
     justify-content: space-around;
     height: calc(100% - 110px);
 }
@@ -302,6 +304,7 @@ footer h1{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    align-items: flex-start;
     height: 40%;
 }
 

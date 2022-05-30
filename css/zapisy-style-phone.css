@@ -1,12 +1,40 @@
+.introduction-text{
+    font-family: 'League Spartan', sans-serif;
+    font-weight: bold;
+}
+
 .form-sign{
     width: 100vw;
-    height: 70vh;
-    background-color:#14213d;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
 }
 
 .form-sign .container{
-    height: 100%;
-    width: 98%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: 80%;
+    width: 80%;
+    background-color:#ffcc00;
+}
+
+.left-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 65%;
+    height: 80%;
+    font-family: 'League Spartan', sans-serif;
+    margin-left: 20px;
+}
+
+.form-sign header{
+    font-size: 50px;
+    font-weight: bold;
+    color: black;
 }
 
 .form-box{
@@ -17,4 +45,29 @@
     width: 100%;
     color:white;
     font-size: 20px;
+}
+
+.form-box label{
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+}
+
+input{
+    margin: 10px 0 0 0;
+    width: 90%;
+    font-size: 100%;
+    color: black;
+    background-color: white;
+}
+
+select{
+    margin: 5px 0 0 0;
+    height: 35px;
+    width: 40%;
+}
+button{
+    height: 35px;
+    width: 40%;
+    font-weight:bold;
 }
