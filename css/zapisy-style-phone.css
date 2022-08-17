@@ -71,3 +71,9 @@ button{
     width: 40%;
     font-weight:bold;
 }
+
+#nameError, #surnameError, #numberError, #mailError{
+    color: red;
+    font-size: 12px;
+    margin-bottom: 17px;
+}

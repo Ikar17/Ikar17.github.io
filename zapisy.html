@@ -64,15 +64,26 @@
         <div class="left-form">
             <header>ZAPISZ SIĘ JUŻ TERAZ</header>
             <div class="form-box">
-                <form>
-                    <label>Imię</label><br>
-                    <input type="text"> <br>
-                    <label>Nazwisko</label><br>
-                    <input type="text"> <br>
-                    <label>Numer kontaktowy</label><br>
-                    <input type="text"> <br>
-                    <label>E-mail</label><br>
-                    <input type="email"> <br>
+                <form id="form">
+                    <label>Imię <br>
+                        <input type="text" id="name">
+                    </label>
+                    <span id="nameError"></span>
+
+                    <label>Nazwisko <br>
+                        <input type="text" id="surname">
+                    </label>
+                    <span id="surnameError"></span>
+
+                    <label>Numer kontaktowy <br>
+                        <input type="text" id="number"> 
+                    </label>
+                    <span id="numberError"></span>
+
+                    <label>E-mail<br>
+                        <input type="email" id="mail"><br>
+                    </label>
+                    <span id="mailError"></span>
     
                     <label>Program kursu: </label><br>
                     <select>
@@ -80,7 +91,7 @@
                         <option value="program2">Program II</option>
                         <option value="program3">Program III</option>
                     </select>
-                    <button>Zapisz</button>
+                    <button type="submit">Zapisz</button>
     
                 </form>
             </div>
@@ -118,5 +129,8 @@
         
     </div>
 </footer>
+
+
+<script src="script.js"></script>
 </body>
 </html>
